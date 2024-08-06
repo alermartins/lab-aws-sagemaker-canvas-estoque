@@ -1,20 +1,42 @@
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
-## Minha execução:
+## Execução:
 
 - Selecionado dataset [dataset-1000-com-preco-promocional-e-renovacao-estoque.csv]
-- Quick build
-- O forecast será feito na variável Quantidade_Estoque
+- Utilizado o tipo Quick Build
+- O forecast na variável Quantidade_Estoque
+
+## Resultados
+
 - A variável Preço impacta em 60.54% o forecast
-- Minhas métricas
+
+### Métricas
+- Avg wQL = 0.346 ->
+- MAPE = 0.971 ->
+- WAPE = 0.581 ->
+- RMSE = 36.006 -> 
+- MASE = 0.852 -> 
 
  ![image](https://github.com/user-attachments/assets/b96fc696-34e6-4873-8638-75282a6c90e9)
 
 
-Um exemplo de forecast para o item 18 
-
+Um exemplo de forecast para o item 18:
+- P10 =
+- P50 =
+- P90 = 
 
 ![image](https://github.com/user-attachments/assets/363dfa20-0c3a-40cf-9dcd-05ed797a0d53)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
