@@ -1,6 +1,26 @@
 # 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
+## Minha execução:
+
+- Selecionado dataset [dataset-1000-com-preco-promocional-e-renovacao-estoque.csv]
+- Quick build
+- O forecast será feito na variável Quantidade_Estoque
+- A variável Preço impacta em 60.54% o forecast
+- Minhas métricas
+
+ ![image](https://github.com/user-attachments/assets/b96fc696-34e6-4873-8638-75282a6c90e9)
+
+
+Um exemplo de forecast para o item 18 
+
+
+![image](https://github.com/user-attachments/assets/363dfa20-0c3a-40cf-9dcd-05ed797a0d53)
+
+
+
+
+ 
+ Siga os passos abaixo para completar o desafio!
 
 ## 📋 Pré-requisitos
 
