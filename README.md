@@ -11,38 +11,45 @@
 - A variável Preço impacta em 60.54% o forecast
 
 ### Métricas
-- Avg wQL = 0.346 ->
-- MAPE = 0.971 ->
-- WAPE = 0.581 ->
-- RMSE = 36.006 -> 
-- MASE = 0.852 -> 
+- Avg wQL = 0.346 -> mede o erro na previsão ponderado por cada variável, na distribuição da variável target. Quanto mais perto de zero, melhor.
+- MAPE = 0.971 -> média de erro das previsões, em relação aos valores reais, em porcentagens. Quanto mais perto de zero, melhor.
+- WAPE = 0.581 -> média de erro das previsões, em relação aos valores reais, mas com ponderações de itens de maior importância. Quanto mais perto de zero, melhor.
+- RMSE = 36.006 -> raiz quadrada dos erros quadráticos, resultando na diferença média entre valor previsto e real, o que realça grandes erros. Quanto mais perto de zero, melhor.
+- MASE = 0.852 -> comparação do erro do forecast com um modelo simples. Espera-se que seja < 1.
+<br/>
+Como observado, as métricas do dataset não são boas. Ele precisa ser trabalhado e, certamente, treinado no tipo Stardart ajudará também a melhorar a situação, pois este perde em velocidade porém ganha em qualidade. 
+  
 
  ![image](https://github.com/user-attachments/assets/b96fc696-34e6-4873-8638-75282a6c90e9)
 
 
-Um exemplo de forecast para o item 18:
-- P10 =
-- P50 =
-- P90 = 
+
+### Um exemplo de forecast para o item 18:
+- P50 = 61 -> o percentil 50 indica a média esperada na previsão, o planejamento médio de reposição de estoque considerando contextos de demandas comuns.
+- P10 = 36 -> o percentil 10 indica o limite onde vão abaixo dos 10% das previsões, condizente com cenários de baixa demanda.
+- P90 = 95 -> o percentil 90 indica o limite onde vão acima dos 90% das previsões, condizente com cenários de alta demanda.
+
+Com estes tipos de valores, combinados com tendências de mercado e decisões de investimento da própria empresa, é possível criar análises baseadas em dados para embasar melhores decisões de negócios. 
 
 ![image](https://github.com/user-attachments/assets/363dfa20-0c3a-40cf-9dcd-05ed797a0d53)
 
 
 
 
+<br/>
+
+
+A ferramenta é muito poderosa e versátil. Possui opções para conexão com diversos DB, vários tipos de análise, opções de exportação. Pareceu bom.
+
+
+<br/>
+<br/>
 
 
 
 
 
-
-
-
-
-
-
- 
- Siga os passos abaixo para completar o desafio!
+# Instruções do Laboratório
 
 ## 📋 Pré-requisitos
 
